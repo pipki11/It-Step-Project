@@ -128,7 +128,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   line-height: 1.6;
-  height: 1000vh;
+  height: 100vh;
 }
 
 .container {
@@ -307,4 +307,93 @@ img {
   font-size: 2rem;
   color: #fff;
   cursor: pointer;
+}
+
+.footer {
+  height: 43.5rem;
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.footer-first {
+  height: 34.7rem;
+  background-color: #e0e0e0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.first--frame {
+  width: 28.2rem;
+  height: 100px;
+}
+.first--frame h2 {
+  font-size: 3.8rem;
+  font-family: "Kalnia";
+  font-weight: 500;
+  color: #424244;
+}
+.first--frame p {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #424244;
+}
+.first--frame h3 {
+  font-size: 2.1rem;
+  font-weight: 500;
+  color: #424244;
+  cursor: pointer;
+}
+
+.social {
+  display: flex;
+  gap: 2rem;
+}
+
+.fa-brands {
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.second--frame {
+  width: 13.3rem;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+}
+.second--frame a {
+  font-size: 2rem;
+  text-decoration: none;
+  color: #424244;
+  margin-top: 1rem;
+}
+
+.third--frame {
+  height: 100px;
+}
+.third--frame a {
+  font-size: 2.1rem;
+  color: #fff;
+  text-decoration: none;
+}
+.third--frame p {
+  font-size: 1.6rem;
+  color: #424244;
+  margin-top: 1rem;
+}
+.third--frame h2 {
+  font-size: 2.1rem;
+  margin-top: 5rem;
+  cursor: pointer;
+}
+
+.footer--second {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer--second p {
+  font-size: 2rem;
+  margin-top: 1rem;
 }/*# sourceMappingURL=main.css.map */
