@@ -19,6 +19,7 @@ img {
 }
 
 // ************************************************ //
+// Content 1
 // ************************************************ //
 
 .content1 {
@@ -47,4 +48,77 @@ img {
   font-weight: 500;
   color: #424244;
   text-align: left;
+}
+
+.centerer {
+  display: flex;
+  justify-content: end;
+  margin-bottom: 0.8rem;
+}
+
+.centerer a {
+  font-size: 1.6rem;
+  color: #c85100;
+}
+
+// ************************************************ //
+// Content 2
+// ************************************************ //
+
+.content2 {
+  margin-top: 8rem;
+
+  &__heading {
+    font-size: 4rem;
+    color: #424244;
+    font-weight: 500;
+    margin-bottom: 2rem;
+  }
+}
+
+// ************************************************ //
+// Content 3
+// ************************************************ //
+
+.content3 {
+  &__heading {
+    font-size: 4rem;
+    color: #424244;
+    font-weight: 500;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+  }
+}
+
+.arrow {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.fa-solid {
+  font-size: 2.4rem;
+  color: #424244;
+}
+
+.fa-chevron-left {
+  margin-left: 0.6rem;
+}
+
+.offers {
+  display: flex;
+  gap: 2.3rem;
+  margin-top: 1rem;
+}
+
+.tourCard1 {
+  & h1 {
+    font-size: 2.3rem;
+    color: #424244;
+    font-weight: 500;
+  }
+  & p {
+    font-size: 2rem;
+    color: #424244;
+  }
 }
