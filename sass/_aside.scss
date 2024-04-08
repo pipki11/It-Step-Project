@@ -2,9 +2,10 @@
   margin-left: 120px;
   margin-right: 120px;
   // background-color: #ccc;
+  height: 330vh;
 }
 .aside {
-  height: 1000vh;
+  height: 100vh;
 }
 
 .card-center {
@@ -120,5 +121,29 @@ img {
   & p {
     font-size: 2rem;
     color: #424244;
+  }
+}
+
+// ************************************************ //
+// Content 4
+// ************************************************ //
+
+.content4 {
+  margin-top: 4rem;
+  &__heading {
+    font-size: 4rem;
+    color: #424244;
+    font-weight: 500;
+    margin-bottom: 2rem;
+  }
+}
+
+.blog {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4rem;
+
+  & img {
+    width: 405px;
   }
 }
