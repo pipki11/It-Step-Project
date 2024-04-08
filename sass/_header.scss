@@ -13,23 +13,25 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-}
-.nav__heading {
-  font-size: 4.8rem;
-  font-family: "Kalnia";
-  color: #fff;
-  font-weight: 500;
-  cursor: pointer;
-}
-.nav__right-side {
-  font-size: 1.6rem;
-  display: flex;
-  gap: 2.5rem;
-}
-.nav__right-side a {
-  font-size: 1.9rem;
-  text-decoration: none;
-  color: #fff;
+
+  &__heading {
+    font-size: 4.8rem;
+    font-family: "Kalnia";
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+  }
+
+  &__right-side {
+    font-size: 1.6rem;
+    display: flex;
+    gap: 2.5rem;
+  }
+  &__right-side a {
+    font-size: 1.9rem;
+    text-decoration: none;
+    color: #fff;
+  }
 }
 
 .content {
@@ -39,37 +41,44 @@
   top: 50%;
   left: 50%;
   transform: translate(-48%, -40%);
-}
-.content__heading {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 3.8rem;
-  text-align: center;
-  color: #fff;
-}
-.content__span {
-  display: block;
-  text-align: center;
-  line-height: 1.5;
-  text-transform: uppercase;
-  color: #fff;
-}
-.content__btn {
-  padding: 1.5rem 3rem;
-  border-radius: 16px;
-  border: none;
-  margin-top: 2rem;
-  background-color: #ff6700;
-  color: #fff;
-  font-weight: 500;
-  cursor: pointer;
-  font-family: "Roboto";
-  display: inline-block;
+
+  &__heading {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 3.8rem;
+    text-align: center;
+    color: #fff;
+  }
+
+  &__span {
+    display: block;
+    text-align: center;
+    line-height: 1.5;
+    text-transform: uppercase;
+    color: #fff;
+  }
+
+  &__btn {
+    padding: 1.5rem 3rem;
+    border-radius: 16px;
+    border: none;
+    margin-top: 2rem;
+    background-color: #ff6700;
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+    font-family: "Roboto";
+    display: inline-block;
+  }
 }
 
 .button-center {
   text-align: center;
 }
+
+// **************************************************************************//
+// Login Side //
+// **************************************************************************//
 
 .login {
   width: 26.7rem;
@@ -107,26 +116,3 @@
   cursor: pointer;
   color: #424244;
 }
-
-* {
-  padding: 0;
-  margin: 0;
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-}
-
-html {
-  box-sizing: border-box;
-  font-size: 62.5%;
-}
-
-body {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  line-height: 1.6;
-  height: 9000px;
-}/*# sourceMappingURL=main.css.map */
