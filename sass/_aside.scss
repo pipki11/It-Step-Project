@@ -1,0 +1,50 @@
+.container {
+  margin-left: 120px;
+  margin-right: 120px;
+  // background-color: #ccc;
+}
+.aside {
+  height: 1000vh;
+}
+
+.card-center {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  max-width: 300px;
+  gap: 1.8rem;
+}
+
+img {
+  width: 305px;
+}
+
+// ************************************************ //
+// ************************************************ //
+
+.content1 {
+  &__heading {
+    font-size: 4rem;
+    font-weight: 500;
+    color: #424244;
+  }
+  &__paragraph {
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.9rem;
+    color: #252525cc;
+    margin-bottom: 3rem;
+  }
+}
+
+.card h1 {
+  font-size: 2.8rem;
+  font-weight: 500;
+  color: #424244;
+}
+
+.card p {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #424244;
+  text-align: left;
+}
