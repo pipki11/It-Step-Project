@@ -82,6 +82,9 @@
   flex-direction: column;
   justify-content: center;
   gap: 1rem;
+}
+
+.loginShow {
   display: none;
 }
 
