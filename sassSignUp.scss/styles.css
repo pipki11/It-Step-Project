@@ -1,0 +1,268 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  height: 150vh;
+}
+
+.header {
+  height: 10.5rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 50rem;
+  background-color: #eae9e9;
+}
+.header h1 {
+  font-size: 4.8rem;
+  font-family: "Kalnia";
+  font-weight: 500;
+  color: #424244;
+  cursor: pointer;
+}
+.header i {
+  font-size: 2.7rem;
+  cursor: pointer;
+}
+
+main {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 54rem;
+  height: 105vh;
+  margin-top: 20rem;
+}
+
+.signin-form {
+  max-width: 400px;
+  margin: 0 auto;
+  margin-top: 3rem;
+}
+
+.signin-form h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button[type=submit] {
+  width: 100%;
+  padding: 14px;
+  color: #fff;
+  background-color: #ff6700;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-bottom: 1rem;
+}
+
+button[type=submit]:hover {
+  background-color: #0056b3;
+}
+
+.line-container {
+  display: flex; /* Make the elements display inline */
+  align-items: center; /* Vertically center the content */
+  margin: 10px auto; /* Add some margin for spacing */
+}
+
+.line,
+.text {
+  margin: 0 10px; /* Add spacing between lines and text */
+}
+
+.line {
+  height: 1px; /* Set the height of the lines */
+  background-color: black; /* Set the color of the lines */
+  width: 50%; /* Set the width of the lines (adjust as needed) */
+  color: rgba(66, 66, 68, 0.6980392157);
+}
+
+.text {
+  font-weight: bold; /* Make the text bold (optional) */
+  text-align: center;
+}
+
+.social-media {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-box {
+  padding: 1.6rem;
+  background-color: red;
+  background-color: #fff;
+  border-radius: 1rem;
+  border: 1px solid black;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.fa-facebook,
+.fa-instagram,
+.fa-apple,
+.fa-google,
+.fa-envelope {
+  font-size: 2.8rem;
+}
+
+.fa-facebook {
+  color: blue;
+}
+
+.fa-apple {
+  color: black;
+}
+
+hr {
+  border-top: 2px solid rgba(66, 66, 68, 0.6980392157);
+  margin-top: 2rem;
+}
+
+.footer-p {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.footer-p span a {
+  color: #ff6700;
+  text-decoration: none;
+}
+
+label {
+  font-size: 1.5rem;
+  color: #424244;
+  margin-left: 1.3rem;
+}
+
+.footer {
+  height: 43.5rem;
+  margin-top: 24rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.footer-first {
+  height: 34.7rem;
+  background-color: #e0e0e0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.first--frame {
+  width: 28.2rem;
+  height: 100px;
+}
+.first--frame h2 {
+  font-size: 3.8rem;
+  font-family: "Kalnia";
+  font-weight: 500;
+  color: #424244;
+}
+.first--frame p {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #424244;
+}
+.first--frame h3 {
+  font-size: 2.1rem;
+  font-weight: 500;
+  color: #424244;
+  cursor: pointer;
+}
+
+.social {
+  display: flex;
+  gap: 2rem;
+}
+
+.fa-brands {
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.second--frame {
+  width: 13.3rem;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+}
+.second--frame a {
+  font-size: 2rem;
+  text-decoration: none;
+  color: #424244;
+  margin-top: 1rem;
+}
+
+.third--frame {
+  height: 100px;
+}
+.third--frame a {
+  font-size: 2.1rem;
+  color: #fff;
+  text-decoration: none;
+}
+.third--frame p {
+  font-size: 1.6rem;
+  color: #424244;
+  margin-top: 1rem;
+}
+.third--frame h2 {
+  font-size: 2.1rem;
+  margin-top: 5rem;
+  cursor: pointer;
+}
+
+.footer--second {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer--second p {
+  font-size: 2rem;
+  margin-top: 1rem;
+}/*# sourceMappingURL=styles.css.map */
