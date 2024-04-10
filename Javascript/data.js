@@ -1,30 +1,3 @@
-export const bookFlight = [
-  {
-    image: "./img/image1.png",
-    title: "Book Flight",
-    paragraph:
-      "book memorable journey with our flight booking services! we're thrilled to present you flight options to suit your travel needs.",
-  },
-  {
-    image: "./img/image2.png",
-    title: "Book Hotels",
-    paragraph:
-      "book memorable journey with our flight booking services! we're thrilled to present you flight options to suit your travel needs.",
-  },
-  {
-    image: "./img/image3.png",
-    title: "Book Cruises",
-    paragraph:
-      "book memorable journey with our flight booking services! we're thrilled to present you flight options to suit your travel needs.",
-  },
-  {
-    image: "./img/image4.png",
-    title: "Book family Vacation",
-    paragraph:
-      "book memorable journey with our flight booking services! we're thrilled to present you flight options to suit your travel needs.",
-  },
-];
-
 export const tourOffers = [
   {
     id: 1,
@@ -53,5 +26,19 @@ export const tourOffers = [
     title: "Luxor City, Egypt",
     paragraph: "2 adults 3days",
     price: "800$",
+  },
+  {
+    id: 5,
+    image: "./img/image 10.png",
+    title: "Messiiii",
+    paragraph: "89 adults 3days",
+    price: "69$",
+  },
+  {
+    id: 6,
+    image: "./img/image 11.png",
+    title: "Ronaldoooo",
+    paragraph: "89 adults 3days",
+    price: "69$",
   },
 ];
