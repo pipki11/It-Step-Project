@@ -41,4 +41,32 @@ export const tourOffers = [
     paragraph: "89 adults 3days",
     price: "69$",
   },
+  {
+    id: 7,
+    image: "./img/image_6png.avif",
+    title: "Ronaldoooo",
+    paragraph: "89 adults 3days",
+    price: "69$",
+  },
+  {
+    id: 8,
+    image: "./img/image_7png.avif",
+    title: "Ronaldoooo",
+    paragraph: "89 adults 3days",
+    price: "69$",
+  },
+  {
+    id: 9,
+    image: "./img/image_8.png",
+    title: "Ronaldoooo",
+    paragraph: "89 adults 3days",
+    price: "69$",
+  },
+  {
+    id: 6,
+    image: "./img/image 11.png",
+    title: "Ronaldoooo",
+    paragraph: "89 adults 3days",
+    price: "69$",
+  },
 ];
